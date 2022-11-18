@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+</head>
+<style>
+  body{
+    background-color: aquamarine;
+  }
+  h1{
+    background-color: red;
+  }
+  p{
+    background-color: blue;
+  }
+  span{
+    background-color: yellow;
+   }
+
+  .block{
+    width: 300px;
+    border: 2px solid black;
+    padding-left: 20px;
+    /*margin-left: 10px; */  /*margin is transparant*/
+    /*padding : 20px 20px 30px 50px; top right bottom left*/
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+
+  .blockspan{
+      display: inline-block;
+      width: 200px
+  }
+  .center{
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+</style>
+<body>
+<h1 class="block">vives</h1>
+<p>Vives heeft <span class="blockspan">verschillende </span> campussen</p>
+<img class="center" src="image/vives-kortrijk.jpg" alt="foto gebouw VIVES">
+</body>
+</html>
