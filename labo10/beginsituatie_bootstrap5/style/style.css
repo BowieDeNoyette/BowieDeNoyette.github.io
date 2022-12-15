@@ -1,0 +1,38 @@
+/*.box
+{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
+*/
+div[class*=colorGray]
+{
+    background-color: gray;
+}
+div[class*=colorLightgray]
+{
+    background-color: lightgray;
+}
+
+div[class*='col']
+{
+    height: 200px;
+    box-sizing: border-box;
+    border: white 10px solid;
+}
+/*div[class="col-md-1"]
+{
+    background-color: yellow;
+}
+div[class="col-md-2"]
+{
+    background-color: #55F7BE;
+}
+div[class="col-md-4"]
+{
+    background-color: lightblue;
+}
+div[class="col-md-10"]
+{
+    background-color: #EF233C;
+}*/
